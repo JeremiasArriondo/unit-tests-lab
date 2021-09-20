@@ -104,7 +104,7 @@ describe('Test suite Cartas obtener usuarios', () => {
     });
     /*
     Punto i. En este punto con find busco al div contenedor, simulo el click y busco
-    si la propiedad del color cambia al valor con el cual lo comparo.
+    si la propiedad del color cambia al valor con el cual lo comparo
     */
     test('El color de fondo debe ser "#ffff99" al hacer click en el div contenedor', () => {
         wrapper.find('div.container').simulate('click');

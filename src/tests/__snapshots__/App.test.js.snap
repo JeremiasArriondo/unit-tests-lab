@@ -1,0 +1,790 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite Cartas obtener usuarios Debe coincidir con Snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Listado de Usuarios
+        </h2>,
+        <div
+          className="row"
+        >
+          <p>
+            Cargando página...
+          </p>
+        </div>,
+      ],
+      "className": "container",
+      "onClick": [Function],
+      "style": Object {
+        "backgroundColor": "#ccffff",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Listado de Usuarios",
+        },
+        "ref": null,
+        "rendered": "Listado de Usuarios",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p>
+            Cargando página...
+          </p>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Cargando página...",
+          },
+          "ref": null,
+          "rendered": "Cargando página...",
+          "type": "p",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Listado de Usuarios
+          </h2>,
+          <div
+            className="row"
+          >
+            <p>
+              Cargando página...
+            </p>
+          </div>,
+        ],
+        "className": "container",
+        "onClick": [Function],
+        "style": Object {
+          "backgroundColor": "#ccffff",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Listado de Usuarios",
+          },
+          "ref": null,
+          "rendered": "Listado de Usuarios",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              Cargando página...
+            </p>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cargando página...",
+            },
+            "ref": null,
+            "rendered": "Cargando página...",
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Test suite Cartas obtener usuarios Test suite componente Perfil Perfil debe coincidir con Snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Perfil
+    usuario={
+      Object {
+        "codigoPostal": 2705,
+        "email": "unit-test@mock.org.us",
+        "nombre": "Jeremias",
+        "telefono": 202109,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          <span
+            className="titulo"
+          >
+            Nombre:
+          </span>
+          <span
+            className="nombre"
+          >
+             
+            Jeremias
+          </span>
+        </p>,
+        <p>
+          <span
+            className="titulo"
+          >
+            E-mail:
+          </span>
+          <span
+            className="email"
+          >
+             
+            unit-test@mock.org.us
+          </span>
+        </p>,
+        <p>
+          <span
+            className="titulo"
+          >
+            Teléfono:
+          </span>
+          <span
+            className="telefono"
+          >
+             
+            202109
+          </span>
+        </p>,
+        <p>
+          <span
+            className="titulo"
+          >
+            Código Postal:
+          </span>
+          <span
+            className="codigoPostal"
+          >
+             
+            2705
+          </span>
+        </p>,
+      ],
+      "className": "celda",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="titulo"
+            >
+              Nombre:
+            </span>,
+            <span
+              className="nombre"
+            >
+               
+              Jeremias
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Nombre:",
+              "className": "titulo",
+            },
+            "ref": null,
+            "rendered": "Nombre:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "Jeremias",
+              ],
+              "className": "nombre",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "Jeremias",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="titulo"
+            >
+              E-mail:
+            </span>,
+            <span
+              className="email"
+            >
+               
+              unit-test@mock.org.us
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "E-mail:",
+              "className": "titulo",
+            },
+            "ref": null,
+            "rendered": "E-mail:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "unit-test@mock.org.us",
+              ],
+              "className": "email",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "unit-test@mock.org.us",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="titulo"
+            >
+              Teléfono:
+            </span>,
+            <span
+              className="telefono"
+            >
+               
+              202109
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Teléfono:",
+              "className": "titulo",
+            },
+            "ref": null,
+            "rendered": "Teléfono:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                202109,
+              ],
+              "className": "telefono",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              202109,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="titulo"
+            >
+              Código Postal:
+            </span>,
+            <span
+              className="codigoPostal"
+            >
+               
+              2705
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Código Postal:",
+              "className": "titulo",
+            },
+            "ref": null,
+            "rendered": "Código Postal:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                2705,
+              ],
+              "className": "codigoPostal",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              2705,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            <span
+              className="titulo"
+            >
+              Nombre:
+            </span>
+            <span
+              className="nombre"
+            >
+               
+              Jeremias
+            </span>
+          </p>,
+          <p>
+            <span
+              className="titulo"
+            >
+              E-mail:
+            </span>
+            <span
+              className="email"
+            >
+               
+              unit-test@mock.org.us
+            </span>
+          </p>,
+          <p>
+            <span
+              className="titulo"
+            >
+              Teléfono:
+            </span>
+            <span
+              className="telefono"
+            >
+               
+              202109
+            </span>
+          </p>,
+          <p>
+            <span
+              className="titulo"
+            >
+              Código Postal:
+            </span>
+            <span
+              className="codigoPostal"
+            >
+               
+              2705
+            </span>
+          </p>,
+        ],
+        "className": "celda",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="titulo"
+              >
+                Nombre:
+              </span>,
+              <span
+                className="nombre"
+              >
+                 
+                Jeremias
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Nombre:",
+                "className": "titulo",
+              },
+              "ref": null,
+              "rendered": "Nombre:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "Jeremias",
+                ],
+                "className": "nombre",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "Jeremias",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="titulo"
+              >
+                E-mail:
+              </span>,
+              <span
+                className="email"
+              >
+                 
+                unit-test@mock.org.us
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "E-mail:",
+                "className": "titulo",
+              },
+              "ref": null,
+              "rendered": "E-mail:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "unit-test@mock.org.us",
+                ],
+                "className": "email",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "unit-test@mock.org.us",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="titulo"
+              >
+                Teléfono:
+              </span>,
+              <span
+                className="telefono"
+              >
+                 
+                202109
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Teléfono:",
+                "className": "titulo",
+              },
+              "ref": null,
+              "rendered": "Teléfono:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  202109,
+                ],
+                "className": "telefono",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                202109,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="titulo"
+              >
+                Código Postal:
+              </span>,
+              <span
+                className="codigoPostal"
+              >
+                 
+                2705
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Código Postal:",
+                "className": "titulo",
+              },
+              "ref": null,
+              "rendered": "Código Postal:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  2705,
+                ],
+                "className": "codigoPostal",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                2705,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

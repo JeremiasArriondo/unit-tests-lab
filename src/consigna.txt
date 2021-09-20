@@ -1,0 +1,40 @@
+Requisitos:
+
+a- Entregar el proyecto "entero" en archivo .zip adjuntando el nombre y apellido en package.json (clave "author") y sin la carpeta node_modules generada
+
+b- Solo modificar archivos de unit tests y de configuración correspondientes
+
+c- Comentar cada uno de los test cases creados con al menos un párrafo
+
+d- Tener en cuenta la indentación
+
+e- Debe utilizar snapshots
+
+Consigna:
+
+1- Instalar Enzyme y configurar el correspondiente adaptador para complementarse con Jest (en archivo ./src/setupTests.js)
+
+2- Crear un test suite en el archivo ./src/App.test.js de nombre "Test suite componente App" con los correspondientes test cases nombrados:
+a- App debe coincidir con snapshot
+b- el título debe ser "Listado de Usuarios"
+c- debe existir un loader con texto cargando página...
+d- Perfil debe coincidir con snapshot
+e- el usuario debe tener un e-mail unit-test@mock.org.us
+f- cada carta debe tener 4 elementos de párrafo con clase "titulo"
+g- el elemento div dentro de cada carta debe tener una clase "celda"
+i- el color de fondo debe ser inicialmente "#ccffff"
+j- el color de fondo debe ser "#ffff99" al hacer click en el div contenedor
+
+3- Instalar la librería axios, crear un test suite de nombre 'recobra datos de forma exitosa de una API' con test suite 'recobra datos de forma exitosa de una API' 
+   (crear el mock del endpoint https://jsonplaceholder.typicode.com/users)
+
+4- Crear un par de entradas adicionales a las ya existentes en la sección "scripts" de package.json para ejecución por línea de comandos:
+a- test:cobertura -> debe generar un reporte de cobertura visible por pantalla
+b- test:cobertura:exportar -> debe permitir exportar el reporte de cobertura a un archivo reporte_cobertura.json  
+
+Referencias:
+
+https://jestjs.io/docs/api
+https://enzymejs.github.io/enzyme/docs/guides/jest.html
+https://enzymejs.github.io/enzyme/docs/api/
+https://github.com/axios/axios
